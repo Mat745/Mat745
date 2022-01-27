@@ -1,0 +1,21 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Medicne medicne = new Medicne();
+
+        medicne.addMedin();
+        //medicne.wyswietl();
+        medicne.addMedin();
+        medicne.addMedin();
+        medicne.addMedin();
+        //medicne.wyswietl();
+
+        System.out.println(medicne.cena("Lek",true));
+        System.out.println(medicne.cena("Lek",false));
+
+        medicne.maxRefundation();
+
+    }
+}
